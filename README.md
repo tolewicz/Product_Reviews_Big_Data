@@ -20,7 +20,7 @@ The goal of the project is to investigate the bias of Amazon Vine opinions on of
 
 Table of average product ratings:
 <p align="center">
-<img src="https://github.com/tolewicz/Product_Reviews_Big_Data/blob/main/VIne_table.JPG" width="700" height= "450" title= "2D log">
+<img src="https://github.com/tolewicz/Product_Reviews_Big_Data/blob/main/Images/VIne_table.JPG" width="700" height= "450" title= "2D log">
 </p>
 
 ### Explanation 
@@ -28,6 +28,9 @@ In the first glance bias of Vine on the product review seem to be negligible: ra
 However, once the data is filtered by purchased product and compared vine vs no vine the difference is larger: with vine 4.45, without vine 4.19. The reason for such filtering is that, the opinion about purchased product comes from the user, not from a bot. To verify if the vine ratings is biased I looked at the review of product purchased and not purchased with vine. It turned out that the number of purchased products with vine is only 22, which means that most of the vine opinions (4268) was done without purchasing the product, which strongly suggests that the vine opinion is biased
 
 ## Resources 
+* Technologies used: Python, Google Colab, PySpark, Hadoop, PostgreSQL, Amazon Web Services (AWS)
+* Programs: Analysis_BIg_Data_challenge.ipynb, BIg_Data_challenge.ipynb
+
 
 
 
