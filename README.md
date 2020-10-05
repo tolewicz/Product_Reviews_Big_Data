@@ -25,7 +25,7 @@ Table of average product ratings:
 
 ### Explanation 
 In the first glance bias of Vine on the product review seem to be negligible: rating with vine is 4.07 Rating w/o vine is 4.05
-However, once the data is filtered by purchased product and compared vine vs no vine the difference is larger: with vine 4.45, without vine 4.19. The reason for such filtering is that, the opinion about purchased product comes from the user, not from a bot. To verify if the vine ratings is biased I looked at the review of product purchased and not purchased with vine. It turned out that the number of purchased products with vine is only 22, which means that most of the vine opinions (4268) was done without purchasing the product, which strongly suggests that the vine opinion is biased
+However, once the data is filtered by purchased product and compared vine vs no vine the difference is larger: with vine 4.45, without vine 4.19. The reason for such filtering is that, the opinion about purchased product comes from the user, not from a bot. To verify if the vine ratings is biased I looked at the review of product purchased and not purchased with vine. It turned out that the number of purchased products with vine is only 22, which means that most of the vine opinions (4268) was done without purchasing the product, which strongly suggests that the vine opinion is biased.
 
 ## Resources 
 * Technologies used: Python, Google Colab, PySpark, Hadoop, PostgreSQL, Amazon Web Services (AWS)
